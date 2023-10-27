@@ -1,0 +1,26 @@
+// .footer-container {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+//     background-color: #333; /*  */
+//     color: white; /*  text color */
+//     padding: 10px 0; 
+//     text-align: center;
+//     font-size: 1.5rem;
+//     font-weight: 300;
+//     font-family: 'Rubik', sans-serif;
+//     margin-top: 4rem;
+// }
+
+
+.footer {
+    .wrap {
+      max-width: 1450px;
+      padding: 20px 10px;
+      margin: 0 auto;
+    }
+    border-top: 2px solid #395464;
+    background-color: #395464;
+    /*  */
+    color: white;
+}

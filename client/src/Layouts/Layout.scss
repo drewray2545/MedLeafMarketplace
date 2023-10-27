@@ -1,0 +1,18 @@
+.mainLayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: calc(100vh - 6.55rem - 4rem); // Deducting the header and footer height
+}
+
+.main-content {
+    flex: 1; // This ensures it takes the remaining space after the sidebar
+    padding: 20px;
+    overflow-y: auto; // Add a scrollbar if content overflows
+}

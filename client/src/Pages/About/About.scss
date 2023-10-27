@@ -1,0 +1,42 @@
+/* About.scss */
+
+.content-container {
+    min-height: calc(100vh - 5rem); /* Subtract the height of the header */
+    position: relative; /* Establish a positioning context */
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 50px; /* Adjust as needed */
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #395464;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr; /* Two columns in the grid */
+gap: 20px; /* Adjust the gap between columns */
+}
+
+@media (max-width: 768px) {
+    /* On screens with a max-width of 768px and smaller (e.g., mobile) */
+    .grid-container {
+        grid-template-columns: 1fr; /* One column in the grid */
+    }
+}
+
+.bio-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.bio-image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
