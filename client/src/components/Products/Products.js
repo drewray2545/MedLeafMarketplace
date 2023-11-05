@@ -86,7 +86,7 @@ const Products = () => {
     },
   ];
   return (
-    <div className="gallery">
+    <div className="product">
       <h2>Products</h2>
       <div className="product-container">
         {Array.isArray(data) &&

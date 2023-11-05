@@ -23,7 +23,7 @@ h2 {
 
 /* Responsive layout for tablet-sized screens */
 @media (max-width: 768px) {
-    .gallery-container {
+    .product-container {
         grid-template-columns: repeat(2, 1fr);
         /* 2 columns for screens <= 768px (tablets) */
     }
@@ -31,7 +31,7 @@ h2 {
 
 /* Responsive layout for mobile-sized screens */
 @media (max-width: 480px) {
-    .gallery-container {
+    .product-container {
         grid-template-columns: 1fr;
         /* 1 column for screens <= 480px (mobile) */
     }
