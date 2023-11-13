@@ -24,7 +24,7 @@ const App = (props) => {
         {/* Route for the root path */}
         <Route
           exact
-          path="/"
+          path="/medleaf"
           element={
             <MainLayout>
               <Home />
