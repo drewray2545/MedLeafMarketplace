@@ -9,6 +9,7 @@ import VapePen from "./../../assets/vapepen.png";
 import Classic from "./../../assets/classic.png";
 import Tincture from "./../../assets/tincturedrops.png";
 import Tea from "./../../assets/tea.png";
+import Leaves2 from "./../../assets/Sqrd+Lab+Background_+Cannabis-high.gif";
 
 import "./Products.scss";
 
@@ -89,6 +90,9 @@ const Products = () => {
     <div className="product">
       <h2>Products</h2>
       <div className="product-container">
+        <div className="background-image">
+          <img src={Leaves2} alt="leaves" />
+        </div>
         {Array.isArray(data) &&
           data.length > 0 &&
           data.map((product, index) => {

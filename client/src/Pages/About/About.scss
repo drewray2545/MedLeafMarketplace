@@ -17,9 +17,13 @@ h1{
 }
 
 .grid-container {
-display: grid;
-grid-template-columns: 1fr 1fr; /* Two columns in the grid */
-gap: 20px; /* Adjust the gap between columns */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns in the grid */
+    gap: 20px; /* Adjust the gap between columns */
+
+    p{
+        color: white;
+    }
 }
 
 @media (max-width: 768px) {

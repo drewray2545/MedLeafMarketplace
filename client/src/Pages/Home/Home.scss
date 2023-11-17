@@ -3,7 +3,12 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 6.55rem);
+    position: relative; // Add this to position your background relative to this container
 
+    @media (max-width: 768px) {
+        align-items: flex-start; // Align items to the start of the container, i.e., the top
+        height: auto; // Adjust the height to be auto for better mobile view
+    }
     .slider {
         position: relative;
         width: 100%;
@@ -14,7 +19,9 @@
             transition: opacity 1s ease-in-out;
         }
     
-    
+    img{
+        size: 80%;
+    }
     .slide-caption {
         position: absolute;
         bottom: 10%;
@@ -22,6 +29,15 @@
         background-color: rgba(0, 0, 0, 0.6);
         padding: 1rem;
         border-radius: 8px;
+        @media (max-width: 768px) {
+                position: static; // Resets the position to the normal document flow
+                width: 100%; // Ensures it spans the full width of the slider
+                margin-top: 1rem; // Adds some space between the image and the caption
+                padding: 0.5rem; // Adjust padding for mobile view
+                background-color: transparent; // Optional: Makes the background transparent
+                color: black; // Change text color if needed
+                text-align: center; // Centers the text
+        }
 
         h2 {
             color: white;

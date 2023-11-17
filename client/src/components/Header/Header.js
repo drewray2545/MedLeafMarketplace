@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./../../assets/medleafmarketplace_logo.png";
+import logo from "./../../assets/medleafmarketplace_logo-removebg-preview.png";
 import { Link } from "react-router-dom";
 
 import "./Header.scss";

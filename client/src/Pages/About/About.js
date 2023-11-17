@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "./../../assets/medleafmarketplace_logo.png";
+import logo from "./../../assets/medleafmarketplace_logo-removebg-preview.png";
+import Leaves2 from "./../../assets/Sqrd+Lab+Background_+Cannabis-high.gif";
 
 import "./About.scss"; // Import your CSS file
 
@@ -8,6 +9,9 @@ const About = () => {
     <div className="wrapper">
       <h1>About MedLeaf Marketplace</h1>
       <div className="grid-container">
+        <div className="background-image">
+          <img src={Leaves2} alt="leaves" />
+        </div>
         <div className="bio-text-container">
           <p className="bio">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
