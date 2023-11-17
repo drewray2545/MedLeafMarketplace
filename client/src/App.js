@@ -3,6 +3,7 @@
 //  React: Package to build react component interface
 import React from "react";
 import { Route, Routes } from "react-router-dom"; // Import the Routes component
+import { useState } from "react"; // Import useState hook
 
 // Import layouts
 
@@ -17,6 +18,11 @@ import Orders from "./Pages/Orders/Orders";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 
 const App = (props) => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // New state for toggling sidebar
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
   return (
     <div className="App">
       <Routes>
