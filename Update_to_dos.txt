@@ -1,0 +1,60 @@
+Medleaf feature update: Orders
+
+React components: User profiles
+  -Email authentication - 1hr
+  -HTML/CSS/JS
+  -Redux state
+  -Reset Password form - 1hr
+  -HTML/CSS/JS
+  -Profile Screen - 1hr
+  -HTML/CSS/JS
+  -Redux state
+  -Order Tracking Setup  - 1hr
+  -HTML/CSS/JS
+  -Redux state
+  -Cart Page - 1hr
+  -HTML/CSS/JS
+  -redux state
+  -Checkout Page - 1hr
+  -HTML/CSS/JS
+  -redux state
+  -Order History Page - 1hr
+  -HTML/CSS/JS
+  -redux state
+
+  Admin profiles
+  -Product Add/Edit/Delete - 1hr
+  -HTML/CSS/JS
+  -Redux state
+  -Order Tracking - 1hr
+  -HTML/CSS/JS
+  -Redux state
+  -User Management - 1hr
+  -HTML/CSS/JS
+  -Redux state
+  -Order History - 1hr
+  -HTML/CSS/JS
+  -Redux state
+
+API Integration 1 hour setup each: Cashapp - needed - 1hr
+  Stripe - needed - 1hr
+  Venmo - needed - 1hr
+  Paypal - optional - 1hr
+  Google Pay - optional - 1hr
+  Apple Pay - optional - 1hr
+  Square - optional - 1hr
+  Zelle - optional - 1hr
+  Amazon Pay - optional - 1hr
+
+Express Server: Setup - .5hr
+  Routes - .5hr
+  Middleware - .5hr
+  Controllers - .5hr
+  Models - .5hr
+  DB - .5hr
+  Testing - .5hr
+
+MySQL DB: ERD - .5hr
+  Schema - .5hr
+  Queries - .5hr
+  Testing - .5hr
